@@ -1,0 +1,15 @@
+use inc::Module::Install;
+name 'FormValidator-Lite-Constraint-Moose';
+all_from 'lib/FormValidator/Lite/Constraint/Moose.pm';
+
+requires 'FormValidator::Lite';
+requires 'Any::Moose';
+
+tests 't/*.t';
+author_tests 'xt';
+
+test_requires 'Test::More';
+test_requires 'Test::Fatal';
+auto_set_repository;
+auto_include;
+WriteAll;

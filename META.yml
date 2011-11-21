@@ -1,0 +1,27 @@
+---
+abstract: "Use Moose's type constraints."
+author:
+  - 'Hideaki Ohno <hide.o.j55 {at} gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: FormValidator-Lite-Constraint-Moose
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  Any::Moose: 0
+  FormValidator::Lite: 0
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/hideo55/p5-FormValidator-Lite-Constraint-Moose.git
+version: 0.01
