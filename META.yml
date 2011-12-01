@@ -19,10 +19,12 @@ no_index:
     - inc
     - t
     - xt
+recommends:
+  Mouse: 0.92
 requires:
-  Any::Moose: 0
+  Any::Moose: 0.18
   FormValidator::Lite: 0
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/hideo55/p5-FormValidator-Lite-Constraint-Moose.git
-version: 0.03
+version: 0.04
