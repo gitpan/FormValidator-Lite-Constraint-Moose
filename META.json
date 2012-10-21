@@ -6,7 +6,8 @@
    "dynamic_config" : 0,
    "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112150",
    "keywords" : [
-      "locale"
+      "Moose",
+      "FormValidator::Lite"
    ],
    "license" : [
       "perl_5"
@@ -50,7 +51,7 @@
    "provides" : {
       "FormValidator::Lite::Constraint::Moose" : {
          "file" : "lib/FormValidator/Lite/Constraint/Moose.pm",
-         "version" : "0.06"
+         "version" : "0.07"
       }
    },
    "release_status" : "stable",
@@ -65,5 +66,5 @@
          "url" : "git://github.com/hideo55/p5-FormValidator-Lite-Constraint-Moose.git"
       }
    },
-   "version" : "0.06"
+   "version" : "0.07"
 }

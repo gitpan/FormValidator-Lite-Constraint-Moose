@@ -1,10 +1,12 @@
 package FormValidator::Lite::Constraint::Moose;
 use strict;
 use warnings;
+use utf8;
+use 5.008003;
 use FormValidator::Lite::Constraint;
 use Any::Moose ( '::Util::TypeConstraints' => [] );
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 *_get_constraint = any_moose('::Util::TypeConstraints')->can('find_type_constraint');
 
