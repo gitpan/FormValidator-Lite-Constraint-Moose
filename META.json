@@ -1,0 +1,69 @@
+{
+   "abstract" : "Use Moose's type constraints.",
+   "author" : [
+      "Hideaki Ohno<hide.o.j55@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112150",
+   "keywords" : [
+      "locale"
+   ],
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "FormValidator-Lite-Constraint-Moose",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "eg"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::Fatal" : 0,
+            "Test::More" : "0.98"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "recommends" : {
+            "Mouse" : "0.92"
+         },
+         "requires" : {
+            "Any::Moose" : "0.18",
+            "FormValidator::Lite" : 0,
+            "perl" : "5.008003"
+         }
+      }
+   },
+   "provides" : {
+      "FormValidator::Lite::Constraint::Moose" : {
+         "file" : "lib/FormValidator/Lite/Constraint/Moose.pm",
+         "version" : "0.06"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/hideo55/p5-FormValidator-Lite-Constraint-Moose/issues"
+      },
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "git://github.com/hideo55/p5-FormValidator-Lite-Constraint-Moose.git"
+      }
+   },
+   "version" : "0.06"
+}
