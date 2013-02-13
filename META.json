@@ -4,7 +4,7 @@
       "Hideaki Ohno<hide.o.j55@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.112150",
    "keywords" : [
       "Moose",
       "FormValidator::Lite"
@@ -38,12 +38,10 @@
          }
       },
       "runtime" : {
-         "recommends" : {
-            "Mouse" : "0.92"
-         },
          "requires" : {
-            "Any::Moose" : "0.18",
-            "FormValidator::Lite" : 0,
+            "FormValidator::Lite" : "0.10",
+            "Moose" : "0.94",
+            "Moose::Util::TypeConstraints" : 0,
             "perl" : "5.008003"
          }
       }
@@ -51,7 +49,7 @@
    "provides" : {
       "FormValidator::Lite::Constraint::Moose" : {
          "file" : "lib/FormValidator/Lite/Constraint/Moose.pm",
-         "version" : "0.07"
+         "version" : "0.10"
       }
    },
    "release_status" : "stable",
@@ -66,5 +64,5 @@
          "url" : "git://github.com/hideo55/p5-FormValidator-Lite-Constraint-Moose.git"
       }
    },
-   "version" : "0.07"
+   "version" : "0.10"
 }
