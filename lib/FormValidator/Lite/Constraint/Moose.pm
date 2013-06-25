@@ -6,7 +6,7 @@ use 5.008003;
 use FormValidator::Lite::Constraint;
 use Moose::Util::TypeConstraints ();
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 my $get_constraint = Moose::Util::TypeConstraints->can('find_type_constraint');
 
@@ -60,7 +60,7 @@ FormValidator::Lite::Constraint::Moose - Use Moose's type constraints.
 =head1 DESCRIPTION
 
 This module provides Moose's type constraint as constraint rule of L<FormValidator::Lite>
-If you wanna know the constraint, see L<Moose::Util::TypeConstraints> for details.
+If you want to know the constraint, see L<Moose::Util::TypeConstraints> for details.
 
 =head1 AUTHOR
 
