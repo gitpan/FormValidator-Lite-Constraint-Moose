@@ -10,7 +10,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.5.3, CPAN::Meta::Converter version 2.130880'
+generated_by: 'Minilla/v0.6.8, CPAN::Meta::Converter version 2.130880'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -28,7 +28,7 @@ no_index:
 provides:
   FormValidator::Lite::Constraint::Moose:
     file: lib/FormValidator/Lite/Constraint/Moose.pm
-    version: 0.12
+    version: 0.13
 requires:
   FormValidator::Lite: 0.10
   Moose: 0.94
@@ -38,7 +38,7 @@ resources:
   bugtracker: https://github.com/hideo55/FormValidator-Lite-Constraint-Moose/issues
   homepage: https://github.com/hideo55/FormValidator-Lite-Constraint-Moose
   repository: git://github.com/hideo55/FormValidator-Lite-Constraint-Moose.git
-version: 0.12
+version: 0.13
 x_contributors:
   - 'hirobanex <hirobanex@gmail.com>'
   - 'hideo55 <hide.o.j55@gmail.com>'
